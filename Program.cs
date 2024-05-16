@@ -84,10 +84,41 @@
             Console.ReadLine();
         }
 
+        static void Will()
+        {
+            int coin, headsTotal = 0, tailsTotal = 0;
+            Random rand = new Random();
+
+            for (int i = 0; i < 1000; i++)
+            {
+                coin = rand.Next(1, 3);
+                switch (coin)
+                {
+                    case 1:
+                        headsTotal++;
+
+                        break;
+
+                    case 2:
+                        tailsTotal++;
+
+                        break;
+
+                }
+
+
+            }
+            Console.WriteLine($"The number of heads is {headsTotal}\nThe number of tails is {tailsTotal}");
+
+            Console.ReadLine();
+
+        }
+
 
         static void Main(string[] args)
         {
             Trevor();
+            Will();
         }
     }
 }
