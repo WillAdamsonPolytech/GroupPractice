@@ -115,6 +115,16 @@ namespace GroupPractice
             Console.ReadLine();
 
         }
+
+        static void Will2()
+        {
+            //This is another test method.
+            Console.WriteLine("Testing testing 123. Press any key to continue.");
+            Console.ReadLine();
+
+
+        }
+
         static void Thomas()
         {
             Random rand = new Random();
@@ -147,6 +157,7 @@ namespace GroupPractice
             Trevor();
             Will();
             Thomas();
+            Will2();
         }
     }
 }
