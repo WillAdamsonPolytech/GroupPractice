@@ -1,4 +1,6 @@
-﻿namespace GroupPractice
+﻿using System.Diagnostics;
+
+namespace GroupPractice
 {
     internal class Program
     {
@@ -113,12 +115,38 @@
             Console.ReadLine();
 
         }
-
+        static void Thomas()
+        {
+            Random rand = new Random();
+            int computer = rand.Next(1, 4);
+            Console.WriteLine("enter paper, scissor, rock as P, || S, || R");
+            string temp = Console.ReadLine();
+            char outcome = null;
+            char user = Convert.ToChar(temp);
+            switch (computer)
+            {
+                case 1:
+                    Console.WriteLine("Computer used Paper");
+                    outcome = 'P';
+                    break;
+                case 2:
+                    Console.WriteLine("computer used Scissors");
+                    outcome = 'S';
+                    break;
+                case 3:
+                    Console.WriteLine("computer used Rock");
+                    outcome = 'R';
+                    break;
+            }
+            if (user == outcome) { }
+            Console.ReadLine();
+        }
 
         static void Main(string[] args)
         {
             Trevor();
             Will();
+            Thomas();
         }
     }
 }
