@@ -115,6 +115,12 @@ namespace GroupPractice
             Console.ReadLine();
 
         }
+
+        static void Trevor1()
+        {
+            Console.WriteLine("Hello World!");
+        }
+
         static void Thomas()
         {
             Random rand = new Random();
@@ -147,6 +153,7 @@ namespace GroupPractice
             Trevor();
             Will();
             Thomas();
+            Trevor1();
         }
     }
 }
