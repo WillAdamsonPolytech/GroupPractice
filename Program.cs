@@ -116,11 +116,12 @@ namespace GroupPractice
 
         }
 
-<<<<<<< HEAD
+
         static void Trevor1()
         {
             Console.WriteLine("Hello World!");
-=======
+        }
+
         static void Will2()
         {
             //This is another test method.
@@ -128,7 +129,7 @@ namespace GroupPractice
             Console.ReadLine();
 
 
->>>>>>> bdafd38341a6737a31d46f95ee8839c1101831ee
+
         }
 
         static void Thomas()
@@ -163,11 +164,10 @@ namespace GroupPractice
             Trevor();
             Will();
             Thomas();
-<<<<<<< HEAD
+
             Trevor1();
-=======
             Will2();
->>>>>>> bdafd38341a6737a31d46f95ee8839c1101831ee
+
         }
     }
 }
